@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>박석규 지점장 | 보험명의 정닥터</title>
+<meta name="description" content="보험명의 정닥터 박석규 지점장. 직업·병력·나이에 맞춘 고객 맞춤형 보험 상담. 손해·생명·제3보험·변액보험.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="나쁜 보험은 없습니다 | 박석규 지점장">
+<meta property="og:description" content="보험명의 정닥터 박석규 지점장 보험 상담 신청 010-3745-9453">
+<meta property="og:image" content="images/portrait.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#16302a; --pine:#1f3f37; --pine2:#2e5a4e; --sage:#edf3f0; --line:#cfdcd6;
+  --gold:#c9a457; --gold2:#e6cf94; --ink:#14201c; --soft:#56655f; --white:#fff; --alert:#a8322a;
+  --col:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:18px;line-height:1.75;color:var(--ink);background:var(--white);word-break:keep-all}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.col{max-width:var(--col);margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+h2.sec{font-size:clamp(30px,4.2vw,46px);font-weight:900;line-height:1.25;letter-spacing:-.02em;color:var(--pine)}
+.lede{color:var(--soft);font-size:19px;max-width:32em;margin-top:12px}
+
+.draft{background:var(--alert);color:#fff;text-align:center;font-size:15px;font-weight:700;padding:9px 16px}
+
+/* 머리 */
+.top{position:sticky;top:0;z-index:30;background:rgba(22,48,42,.96);backdrop-filter:blur(8px);color:#fff;border-bottom:1px solid rgba(201,164,87,.35)}
+.top .col{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand b{font-family:'Gowun Batang',serif;font-size:21px}
+.top nav{display:flex;gap:2px}
+.top nav a{font-size:15px;text-decoration:none;padding:8px 12px;border-radius:999px;opacity:.85}
+.top nav a:hover{background:rgba(255,255,255,.1);opacity:1}
+.top .call{font-weight:700;text-decoration:none;background:var(--gold);color:var(--night);padding:9px 18px;border-radius:999px;white-space:nowrap}
+
+/* 첫 화면 */
+.hero{background:var(--night);color:#fff;position:relative;overflow:hidden;padding:72px 0 0}
+.hero:before{content:"";position:absolute;right:-180px;top:-160px;width:620px;height:620px;border-radius:50%;border:1px solid rgba(201,164,87,.25);box-shadow:0 0 0 60px rgba(201,164,87,.04),0 0 0 140px rgba(201,164,87,.03)}
+.hero .col{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.hero .tag{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--gold2);border:1px solid rgba(230,207,148,.4);padding:6px 14px;border-radius:999px}
+.hero h1{font-size:clamp(46px,7.6vw,92px);font-weight:900;line-height:1.08;letter-spacing:-.035em;margin:22px 0 26px}
+.hero p.sub{font-size:20px;opacity:.88;max-width:25em}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.btn{display:inline-flex;align-items:center;gap:10px;font:inherit;font-size:18px;font-weight:700;padding:17px 28px;border-radius:999px;border:2px solid var(--gold);background:var(--gold);color:var(--night);text-decoration:none;cursor:pointer}
+.btn:hover{background:var(--gold2);border-color:var(--gold2)}
+.btn.line{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
+.btn.line:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn svg{flex:none}
+
+/* 액자 */
+.frame{position:relative;justify-self:center;width:min(100%,380px);padding:14px;background:linear-gradient(145deg,#e8d39d,#b38b3e 45%,#e3c983 70%,#9d7631);border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.frame .inner{background:#f7f4ec;padding:16px 16px 0;border-radius:2px}
+.frame img{width:100%;height:auto;aspect-ratio:486/587;object-fit:cover}
+.frame .plate{text-align:center;padding:14px 4px 16px}
+.frame .plate b{display:block;font-family:'Gowun Batang',serif;font-size:28px;color:var(--night);letter-spacing:.2em;padding-left:.2em}
+.frame .plate span{font-size:15px;color:var(--soft)}
+@media (prefers-reduced-motion:no-preference){
+  .frame{animation:rise 1s cubic-bezier(.2,.7,.2,1) both .15s}
+  @keyframes rise{from{opacity:0;transform:translateY(28px) rotate(1.5deg)}to{opacity:1;transform:none}}
+}
+
+/* 자격 띠 */
+.creds{position:relative;margin-top:72px;border-top:1px solid rgba(201,164,87,.35)}
+.creds ul{list-style:none;display:grid;grid-template-columns:repeat(4,1fr)}
+.creds li{padding:26px 20px 30px;border-left:1px solid rgba(201,164,87,.25)}
+.creds li:first-child{border-left:0;padding-left:0}
+.creds b{display:block;font-size:20px;color:var(--gold2)}
+.creds span{font-size:15px;opacity:.75}
+
+/* 도움 */
+.helps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+.helps button{all:unset;box-sizing:border-box;cursor:pointer;background:var(--sage);border-radius:18px;padding:30px 28px 28px;position:relative;transition:background .2s,color .2s}
+.helps button:hover,.helps button:focus-visible{background:var(--pine);color:#fff}
+.helps button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.helps .ic{width:56px;height:56px;border-radius:16px;background:#fff;display:grid;place-items:center;margin-bottom:20px}
+.helps h3{font-size:22px;font-weight:700;line-height:1.4}
+.helps p{font-size:16px;color:var(--soft);margin-top:6px}
+.helps button:hover p,.helps button:focus-visible p{color:rgba(255,255,255,.8)}
+.helps em{display:inline-block;margin-top:16px;font-style:normal;font-size:15px;font-weight:700;color:var(--pine2);border-bottom:2px solid var(--gold)}
+.helps button:hover em,.helps button:focus-visible em{color:var(--gold2)}
+
+/* 사무실 사진 */
+.office{position:relative;color:#fff;background:linear-gradient(135deg,var(--pine2) 0%,var(--pine) 45%,var(--night) 100%);padding:96px 0;overflow:hidden}
+.office:after{content:"";position:absolute;right:-160px;bottom:-200px;width:520px;height:520px;border-radius:50%;border:1px solid rgba(201,164,87,.28);box-shadow:0 0 0 70px rgba(201,164,87,.04)}
+.must{display:inline-block;margin-bottom:22px;background:var(--gold);color:var(--night);font-weight:900;font-size:17px;padding:8px 18px;border-radius:999px}
+.office .col{position:relative;z-index:1;width:100%}
+.office h2{font-size:clamp(30px,4.4vw,50px);font-weight:900;line-height:1.25;letter-spacing:-.02em;max-width:16em}
+.office p{font-size:19px;opacity:.88;margin-top:14px;max-width:30em}
+.ways{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.ways span{border:1px solid rgba(230,207,148,.6);color:var(--gold2);padding:10px 18px;border-radius:999px;font-size:17px;font-weight:700}
+
+/* 약속 */
+.promise{background:var(--night);color:#fff}
+.promise h2.sec{color:#fff}
+.promise .lede{color:rgba(255,255,255,.75)}
+.promise ul{list-style:none;margin-top:46px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.promise li{border:1px solid rgba(201,164,87,.35);border-radius:18px;padding:28px 26px;background:rgba(255,255,255,.03)}
+.promise li svg{margin-bottom:16px}
+.promise b{display:block;font-size:21px;line-height:1.4}
+.promise span{display:block;opacity:.75;font-size:16px;margin-top:8px}
+
+/* 소개 */
+.story .col{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+.wall{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 24px 50px rgba(20,32,28,.22);background:var(--night);color:#fff;padding:36px 32px;border:1px solid rgba(201,164,87,.4)}
+.wall .t{font-size:15px;color:var(--gold2);font-weight:700}
+.wall h3{font-family:'Gowun Batang',serif;font-size:30px;line-height:1.35;margin:6px 0 20px}
+.wall ul{list-style:none;display:grid;gap:10px}
+.wall li{display:flex;gap:10px;align-items:center;font-size:17px}
+.wall li:before{content:"";flex:none;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.wall .ally{margin-top:22px;padding-top:18px;border-top:1px solid rgba(201,164,87,.3);font-size:16px;opacity:.85}
+.wall img{width:100%;height:auto;aspect-ratio:400/560;object-fit:cover;object-position:top}
+.wall figcaption{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(0deg,rgba(14,32,27,.9),rgba(14,32,27,0));color:#fff;font-size:15px;padding:40px 18px 16px}
+.story .say p{font-size:19px;margin-top:18px}
+.quote{margin-top:30px;padding:22px 26px;border-left:4px solid var(--gold);background:var(--sage);border-radius:0 14px 14px 0}
+.quote q{quotes:none;display:block;font-family:'Gowun Batang',serif;font-size:26px;color:var(--pine);line-height:1.45}
+.quote span{display:block;font-size:15px;color:var(--soft);margin-top:6px}
+
+/* 순서 */
+.flow{background:var(--sage)}
+.flow ol{list-style:none;counter-reset:s;margin-top:46px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+.flow ol:before{content:"";position:absolute;left:28px;right:28px;top:27px;height:2px;background:repeating-linear-gradient(90deg,var(--gold) 0 10px,transparent 10px 18px)}
+.flow li{counter-increment:s;position:relative;padding-right:22px}
+.flow li:before{content:counter(s);position:relative;z-index:1;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:var(--pine);color:var(--gold2);font-size:22px;font-weight:900;margin-bottom:18px;box-shadow:0 0 0 6px var(--sage)}
+.flow h3{font-size:21px;font-weight:700}
+.flow p{font-size:16px;color:var(--soft);margin-top:6px}
+
+/* 질문 */
+.faq{max-width:860px;margin-top:40px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 44px 22px 0;font-size:20px;font-weight:700;position:relative}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"";position:absolute;right:8px;top:30px;width:12px;height:12px;border-right:2.5px solid var(--pine2);border-bottom:2.5px solid var(--pine2);transform:rotate(45deg);transition:transform .2s}
+details[open] summary:after{transform:rotate(-135deg);top:36px}
+details p{padding:0 0 24px;color:#3b4a45;font-size:17px}
+
+/* 신청 */
+.apply{background:var(--night);color:#fff;position:relative;overflow:hidden}
+.apply:before{content:"";position:absolute;left:-200px;bottom:-240px;width:560px;height:560px;border-radius:50%;border:1px solid rgba(201,164,87,.22);box-shadow:0 0 0 70px rgba(201,164,87,.03)}
+.apply .col{position:relative;display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:start}
+.apply h2.sec{color:#fff}
+.apply .lede{color:rgba(255,255,255,.78)}
+.direct{margin-top:30px;border-top:1px solid rgba(201,164,87,.35);padding-top:22px}
+.direct span{display:block;font-size:15px;opacity:.7}
+.direct a{font-size:34px;font-weight:900;color:var(--gold2);text-decoration:none;letter-spacing:-.01em}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:#fff;color:var(--ink);border-radius:20px;padding:32px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+form label{display:block;font-weight:700;font-size:15px;margin-bottom:6px}
+input[type=text],input[type=tel],select,textarea{width:100%;font:inherit;font-size:17px;padding:13px 14px;border:1.5px solid #b8c7c0;border-radius:10px;background:#fff;color:var(--ink)}
+.full{grid-column:1/-1}
+.agree{font-size:14px;line-height:1.6;color:var(--soft);background:var(--sage);border-radius:10px;padding:14px}
+.agree-row{display:flex;gap:10px;align-items:center;font-weight:500;font-size:16px;margin:0}
+.agree-row input{width:22px;height:22px;flex:none;accent-color:var(--pine)}
+form .btn{width:100%;justify-content:center;background:var(--pine);border-color:var(--pine);color:#fff}
+form .btn:hover{background:var(--night);border-color:var(--night)}
+.msg{min-height:26px;font-weight:700;color:var(--pine)}
+
+/* 안내 */
+footer{background:#0e221d;color:rgba(255,255,255,.75);font-size:14px;line-height:1.7;padding:46px 0 110px}
+footer .who{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.12)}
+footer .who b{color:#fff;font-size:17px;font-family:'Gowun Batang',serif}
+footer .who p{margin-top:4px}
+footer .notes{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+footer h4{color:#fff;font-size:14px;margin-bottom:6px}
+footer .notes p{margin-top:6px}
+footer .seal{padding-top:18px}
+.hold{color:#ffd59a}
+
+.callbar{display:none}
+@media (max-width:900px){
+  .top nav{display:none}
+  section{padding:64px 0}
+  .hero{padding-top:44px}
+  .hero .col,.story .col,.apply .col{grid-template-columns:1fr;gap:40px}
+  .frame{width:min(82%,320px)}
+  .creds{margin-top:48px}
+  .creds ul{grid-template-columns:1fr 1fr}
+  .creds li{padding:18px 14px 20px;border-left:0;border-top:1px solid rgba(201,164,87,.2)}
+  .creds li:first-child{padding-left:14px}
+  .creds li:nth-child(odd){padding-left:0}
+  .helps,.promise ul{grid-template-columns:1fr}
+  .office{padding:64px 0}
+  .flow ol{grid-template-columns:1fr;gap:26px}
+  .flow ol:before{left:27px;right:auto;top:28px;bottom:28px;width:2px;height:auto;background:repeating-linear-gradient(180deg,var(--gold) 0 10px,transparent 10px 18px)}
+  .flow li{display:grid;grid-template-columns:56px 1fr;column-gap:18px;padding:0}
+  .flow li:before{grid-row:1/3;margin:0}
+  .wall{max-width:380px}
+  form{grid-template-columns:1fr;padding:22px}
+  footer .notes{grid-template-columns:1fr}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;box-shadow:0 -4px 16px rgba(0,0,0,.25)}
+  .callbar a{padding:17px 8px;text-align:center;font-weight:700;text-decoration:none;background:var(--night);color:#fff}
+  .callbar a+a{background:var(--gold);color:var(--night)}
+}
+</style>
+</head>
+<body>
+
+<div class="draft" id="draft">본사 심의 전 초안입니다. 승인받기 전에는 고객에게 보내지 마십시오.</div>
+
+<header class="top"><div class="col">
+  <a class="brand" href="#top" aria-label="보험명의 정닥터 처음으로">
+    <svg width="28" height="34" viewBox="0 0 30 36" aria-hidden="true"><path d="M15 2C9 11 3 17 3 23a12 12 0 0 0 24 0c0-6-6-12-12-21z" fill="none" stroke="#e6cf94" stroke-width="2.6"/><circle cx="15" cy="23" r="5" fill="none" stroke="#e6cf94" stroke-width="2.6"/></svg>
+    <b>보험명의 정닥터</b>
+  </a>
+  <nav aria-label="바로가기"><a href="#help">상담 내용</a><a href="#promise">약속</a><a href="#story">소개</a><a href="#faq">자주 묻는 질문</a></nav>
+  <a class="call" href="#apply">상담 신청</a>
+</div></header>
+
+<main id="top">
+<section class="hero" style="padding-bottom:0">
+  <div class="col">
+    <div>
+      <span class="tag">보험명의 정닥터 박석규 지점장</span>
+      <h1>나쁜 보험은<br>없습니다.</h1>
+      <p class="sub">일률적으로 가입하신 종합 보험은 내 몸에 잘 맞지 않는 기성복과 같습니다. 직업, 병력, 나이에 맞춰 필요한 보험을 준비하세요.</p>
+      <div class="acts">
+        <a class="btn" href="#apply"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>상담 신청하기</a>
+        <a class="btn line js-tel" href="tel:01037459453"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>010-3745-9453</a>
+      </div>
+    </div>
+    <figure class="frame">
+      <div class="inner">
+        <img src="images/portrait.jpg" alt="박석규 지점장 프로필 사진" width="486" height="587">
+        <figcaption class="plate"><b>박석규</b><span>보험명의 정닥터 지점장</span></figcaption>
+      </div>
+    </figure>
+  </div>
+  <div class="col creds" aria-label="자격">
+    <ul>
+      <li><b>손해보험</b><span>모집 자격</span></li>
+      <li><b>생명보험</b><span>모집 자격</span></li>
+      <li><b>제3보험</b><span>모집 자격</span></li>
+      <li><b>변액보험</b><span>판매 자격</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="help"><div class="col">
+  <h2 class="sec">무엇을 도와드릴까요?</h2>
+  <p class="lede">이런 일로 많이 찾아오십니다. 해당하는 칸을 누르면 상담 신청서에 바로 담깁니다.</p>
+  <div class="helps">
+    <button type="button" data-help="가입한 보험 점검"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="#2e5a4e" stroke-width="2"/><path d="M9 8h6M9 12h6M9 16h3" stroke="#c9a457" stroke-width="2" stroke-linecap="round"/></svg></span><h3>내 보험, 제대로 알고 싶다</h3><p>여러 개 들어 놨는데 무엇이 어떻게 보장되는지 모르실 때. 증권을 한 장씩 같이 봅니다.</p><em>보험 점검 상담</em></button>
+    <button type="button" data-help="보험금 청구 문의"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M4 12h16" stroke="#2e5a4e" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="12" r="9.5" fill="none" stroke="#c9a457" stroke-width="2"/></svg></span><h3>병원비, 청구가 되는지</h3><p>치료를 받으셨는데 청구할 수 있는지, 어떤 서류가 필요한지 모르실 때.</p><em>청구 문의</em></button>
+    <button type="button" data-help="보험료 부담"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4z" fill="none" stroke="#2e5a4e" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="13" r="2.6" fill="none" stroke="#c9a457" stroke-width="2"/><path d="M7 4h10" stroke="#2e5a4e" stroke-width="2" stroke-linecap="round"/></svg></span><h3>보험료가 버겁다</h3><p>매달 나가는 돈이 부담될 때. 해지부터 하지 마시고 먼저 연락 주십시오.</p><em>보험료 상담</em></button>
+    <button type="button" data-help="가족 보험 정리"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="none" stroke="#2e5a4e" stroke-width="2"/><circle cx="16.5" cy="9.5" r="2.5" fill="none" stroke="#c9a457" stroke-width="2"/><path d="M2.5 20a5.5 5.5 0 0 1 11 0M13 20a4 4 0 0 1 8 0" fill="none" stroke="#2e5a4e" stroke-width="2" stroke-linecap="round"/></svg></span><h3>가족 보험을 한 번에</h3><p>부모님, 배우자, 자녀 보험이 제각각일 때 한눈에 정리해 드립니다.</p><em>가족 보험 상담</em></button>
+    <button type="button" data-help="노후 준비"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V11" stroke="#2e5a4e" stroke-width="2.2" stroke-linecap="round"/><path d="M12 11c0-4 3-7 7-7 0 4-3 7-7 7zM12 14c0-3-2.5-5.5-6-5.5 0 3 2.5 5.5 6 5.5z" fill="none" stroke="#c9a457" stroke-width="2" stroke-linejoin="round"/></svg></span><h3>은퇴 뒤가 걱정된다</h3><p>나이 들어 필요한 보장과 노후 준비를 지금 상황에 맞춰 살펴봅니다.</p><em>노후 준비 상담</em></button>
+    <button type="button" data-help="재무설계·상속·절세"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 20V10M10 20V10M14 20V10M18 20V10" stroke="#2e5a4e" stroke-width="2" stroke-linecap="round"/><path d="M3 9l9-5 9 5z" fill="none" stroke="#c9a457" stroke-width="2" stroke-linejoin="round"/></svg></span><h3>재무설계·상속·절세</h3><p>자산을 어떻게 남기고 지킬지, 보험으로 준비할 수 있는 부분을 함께 설계합니다.</p><em>재무설계 상담</em></button>
+  </div>
+</div></section>
+
+<section class="office" aria-label="전문 분야"><div class="col">
+  <h2>맞춤 옷을 준비하듯,<br>보험도 맞춰야 합니다.</h2>
+  <p>개인 상황에 맞춰 준비하셔야 최고의 가성비 보험을 준비할 수 있습니다.</p>
+  <div class="ways"><span>고객 맞춤형 보험 전문</span><span>보상전문 손해사정사·변호사 업무제휴</span><span>재무설계 / 상속 / 절세</span></div>
+</div></section>
+
+<section id="promise" class="promise"><div class="col">
+  <h2 class="sec">상담할 때 지키는 약속</h2>
+  <p class="lede">보험은 오래 가는 약속입니다. 처음 만나는 자리부터 이렇게 하겠습니다.</p>
+  <ul>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="#e6cf94" stroke-width="2"/><path d="M16 16l5 5" stroke="#e6cf94" stroke-width="2.2" stroke-linecap="round"/></svg><b>지금 있는 보험부터 봅니다</b><span>새 상품 이야기는 그다음입니다. 필요 없으면 권하지 않습니다.</span></li>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" fill="none" stroke="#e6cf94" stroke-width="2" stroke-linejoin="round"/></svg><b>해지부터 권하지 않습니다</b><span>기존 보험을 깨고 새로 들면 손해가 날 수 있어, 장단점을 먼저 말씀드립니다.</span></li>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M12 4v16" stroke="#e6cf94" stroke-width="2" stroke-linecap="round"/><path d="M6 6l12 12" stroke="#e6cf94" stroke-width="2" stroke-linecap="round" opacity=".45"/></svg><b>좋은 점과 함께 안 되는 점도</b><span>보장하지 않는 경우, 보험금이 줄어드는 기간까지 같이 설명드립니다.</span></li>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4.5 4.5L19 7" fill="none" stroke="#e6cf94" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><b>결정은 고객께서 하십니다</b><span>상담만 받고 끝내셔도 괜찮습니다. 재촉하지 않습니다.</span></li>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z" fill="none" stroke="#e6cf94" stroke-width="2" stroke-linejoin="round"/></svg><b>가입한 뒤에도 연락이 됩니다</b><span>청구, 변경, 주소 이전처럼 귀찮은 일이 생기면 전화 한 통이면 됩니다.</span></li>
+    <li><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="#e6cf94" stroke-width="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="#e6cf94" stroke-width="2"/></svg><b>개인정보는 상담에만 씁니다</b><span>남겨 주신 연락처는 상담 외에 쓰지 않고 기간이 지나면 파기합니다.</span></li>
+  </ul>
+</div></section>
+
+<section id="story" class="story"><div class="col">
+  <div class="wall">
+    <p class="t">보험명의 정닥터 박석규 지점장</p>
+    <h3>혼합설계<br>보상 전문가</h3>
+    <ul><li>손해보험 자격</li><li>생명보험 자격</li><li>제3보험 자격</li><li>변액보험 자격</li></ul>
+    <p class="ally">보상전문 손해사정사 · 변호사 업무제휴</p>
+  </div>
+  <div class="say">
+    <h2 class="sec">나쁜 보험은 없습니다</h2>
+    <p>일률적으로 가입하신 종합 보험은 내 몸에 잘 맞지 않는 기성복과 같습니다. 가입자의 직업, 병력, 나이에 따라 필요한 보험은 모두 다릅니다.</p>
+    <p>맞춤 옷을 준비하듯 보험도 개인 상황에 따라 맞추셔야 최고의 가성비 보험을 준비할 수 있습니다. 혼합 설계 전문가와 함께 하신다면 최고의 보장 자산을 준비할 수 있습니다.</p>
+    <div class="quote"><q>내 몸에 맞는 맞춤 보험</q><span>기성복이 아닌 맞춤 옷처럼, 한 분 한 분 상황에 맞춰 설계합니다.</span></div>
+  </div>
+</div></section>
+
+<section class="flow"><div class="col">
+  <h2 class="sec">상담은 이렇게 진행됩니다</h2>
+  <ol>
+    <li><h3>신청</h3><p>이 페이지나 전화로 편하신 시간을 알려 주십시오.</p></li>
+    <li><h3>듣기</h3><p>지금 상황과 걱정을 먼저 듣습니다. 증권이 없어도 괜찮습니다.</p></li>
+    <li><h3>펼쳐 보기</h3><p>가진 보험을 함께 보며 겹친 곳과 빈 곳을 짚어 드립니다.</p></li>
+    <li><h3>정리</h3><p>유지할 것, 줄일 것, 채울 것을 나눠 설명드립니다. 결정은 고객께서.</p></li>
+  </ol>
+</div></section>
+
+<section id="faq"><div class="col">
+  <h2 class="sec">자주 묻는 질문</h2>
+  <div class="faq">
+    <details open><summary>상담을 받으면 꼭 가입해야 하나요?</summary><p>아닙니다. 가지고 계신 보험을 점검만 받고 끝내셔도 됩니다. 필요한 게 없으면 없다고 말씀드립니다.</p></details>
+    <details><summary>보험료가 부담되는데 해지하는 게 나을까요?</summary><p>먼저 연락 주십시오. 해지하면 그동안 낸 보험료 일부를 돌려받지 못하거나, 나이와 건강 상태 때문에 다시 가입하기 어려울 수 있습니다. 감액이나 납입 방법 변경처럼 해지 말고 할 수 있는 방법이 있는지 먼저 같이 봅니다.</p></details>
+    <details><summary>증권을 잃어버렸는데 상담이 되나요?</summary><p>됩니다. 가입한 보험회사나 대략적인 내용만 기억하셔도 함께 찾아볼 수 있습니다.</p></details>
+    <details><summary>어느 보험회사 상품을 다루나요?</summary><p style="color:#8a5a00;font-weight:500">본사 확인 후 기재: 대리·중개하는 보험회사 목록</p></details>
+    <details><summary>남긴 연락처는 어디에 쓰이나요?</summary><p>상담 연락에만 씁니다. 다른 곳에 넘기지 않으며, 수집일로부터 6개월이 지나면 파기합니다.</p></details>
+  </div>
+</div></section>
+
+<section id="apply" class="apply"><div class="col">
+  <div>
+    <span class="must">적금보다 평생 내는 지출 1위</span>
+    <h2 class="sec">상담 신청</h2>
+    <p class="lede">보험 점검은 필수입니다. 성함과 연락처만 남겨 주셔도 됩니다. 편하신 시간에 전화드리겠습니다.</p>
+    <div class="direct"><span>바로 통화하시려면</span><a class="js-tel" href="tel:01037459453">010-3745-9453</a></div>
+  </div>
+  <form id="form" novalidate>
+    <div><label for="f-name">성함</label><input id="f-name" type="text" autocomplete="name" required></div>
+    <div><label for="f-tel">연락처</label><input id="f-tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000" required></div>
+    <div><label for="f-type">상담 내용</label>
+      <select id="f-type"><option>가입한 보험 점검</option><option>보험금 청구 문의</option><option>보험료 부담</option><option>가족 보험 정리</option><option>노후 준비</option><option>재무설계·상속·절세</option><option>기타</option></select></div>
+    <div><label for="f-time">통화하기 편한 시간</label>
+      <select id="f-time"><option>아무 때나</option><option>오전</option><option>점심 무렵</option><option>오후</option><option>저녁 6시 이후</option></select></div>
+    <div class="full"><label for="f-msg">더 남기실 말씀 (선택)</label><textarea id="f-msg" rows="3"></textarea></div>
+    <div class="full agree">개인정보 수집·이용 안내<br>수집 항목: 성명, 연락처, 상담 내용, 통화 희망 시간 / 이용 목적: 보험 상담 / 보유 기간: 수집일로부터 6개월 후 파기<br>동의를 거부하실 수 있으며, 거부하시면 상담 신청이 제한됩니다.</div>
+    <label class="full agree-row"><input type="checkbox" id="f-agree"> 개인정보 수집·이용에 동의합니다</label>
+    <input id="f-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+    <div class="full"><button class="btn" type="submit" id="f-submit">상담 신청 보내기</button></div>
+    <p class="full msg" id="form-msg" role="status"></p>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="col">
+  <div class="who">
+    <div>
+      <b>보험명의 정닥터</b>
+      <p class="hold">소속 보험대리점명과 대리점 등록번호: 본사 확인 후 기재</p>
+      <p>박석규 지점장 · 휴대폰 010-3745-9453 · 팩스 0504-477-9453 · enjoy3623@naver.com · <span class="hold">협회등록번호: 본사 확인 후 기재</span></p>
+      <p>본사 | 서울시 구로구 디지털로 34길 55, 801호 (코오롱사이언스밸리 2차)</p>
+      <p>지점 | 경기도 부천시 경인로 512, 102호</p>
+    </div>
+  </div>
+  <div class="notes">
+    <div>
+      <p>본 내용은 모집종사자 개인의 의견이며 계약 체결에 따른 이익 또는 손실은 보험계약자 등에게 귀속됩니다.</p>
+      <p>보험회사 및 상품별로 내용이 다를 수 있으므로 자세한 사항은 반드시 해당 약관과 상품설명서를 확인하시기 바랍니다.</p>
+      <p>보험회사, 상품, 성별, 연령, 직업 등에 따라 가입 가능한 보장, 가입금액, 보험료가 달라질 수 있습니다.</p>
+    </div>
+    <div>
+      <h4>승환계약 시 유의사항</h4>
+      <p>보험계약자가 기존 보험계약을 해지하고 새로운 보험계약을 체결하는 경우</p>
+      <p>1. 질병 이력이나 연령 증가 등으로 가입이 거절되거나 보험료가 인상될 수 있습니다.</p>
+      <p>2. 가입 상품에 따라 새로운 면책기간 적용 및 보장 제한 등 기타 불이익이 발생할 수 있습니다.</p>
+    </div>
+  </div>
+  <p class="seal hold">본 광고는 광고심의기준을 준수하였으며 유효기간은 ____ ~ ____입니다. 심의필 제______호 (본사 승인 후 기재)</p>
+</div></footer>
+
+<div class="callbar"><a class="js-tel" href="tel:01037459453">전화 문의</a><a href="#apply">상담 신청</a></div>
+
+<script>
+/* ===== 여기만 수정하세요 ===== */
+const CONFIG = {
+  phone: "010-3745-9453",   // 상담 전화번호
+  sheetUrl: "",             // 구글 시트 접수 주소(.../exec). 비워두면 문자 방식으로 동작
+  draft: false              // 본사 승인을 받은 뒤 false 로 바꾸면 맨 위 빨간 띠가 사라집니다
+};
+/* ============================ */
+(function(){
+  const tel = CONFIG.phone.replace(/[^0-9]/g,'');
+  document.querySelectorAll('.js-tel').forEach(a=>{ a.href='tel:'+tel; });
+  if(!CONFIG.draft) document.getElementById('draft').remove();
+  const v=id=>document.getElementById(id).value.trim();
+  document.querySelectorAll('[data-help]').forEach(b=>b.addEventListener('click',()=>{
+    document.getElementById('f-type').value=b.dataset.help;
+    document.getElementById('apply').scrollIntoView();
+    document.getElementById('f-name').focus({preventScroll:true});
+  }));
+  const form=document.getElementById('form'), msg=document.getElementById('form-msg'), btn=document.getElementById('f-submit');
+  function viaSms(){
+    const body=`[정닥터 보험 상담신청]\n성함: ${v('f-name')}\n연락처: ${v('f-tel')}\n상담 내용: ${v('f-type')}\n통화 희망: ${v('f-time')}\n남기신 말씀: ${v('f-msg')}`;
+    const sep=/iPhone|iPad|iPod/i.test(navigator.userAgent)?'&':'?';
+    location.href=`sms:${tel}${sep}body=${encodeURIComponent(body)}`;
+    msg.textContent='문자 앱이 열리면 전송을 눌러 주세요. PC에서는 전화로 문의해 주세요.';
+  }
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    if(!v('f-name')||!v('f-tel')){ msg.textContent='성함과 연락처를 입력해 주세요.'; return; }
+    if(!document.getElementById('f-agree').checked){ msg.textContent='개인정보 수집·이용에 동의해 주세요.'; return; }
+    if(!CONFIG.sheetUrl){ viaSms(); return; }
+    const data=new URLSearchParams({name:v('f-name'),tel:v('f-tel'),type:v('f-type'),time:v('f-time'),msg:v('f-msg'),website:v('f-web')});
+    btn.disabled=true; btn.textContent='보내는 중'; msg.textContent='';
+    fetch(CONFIG.sheetUrl,{method:'POST',body:data}).then(r=>r.json())
+      .then(j=>{ if(!j.ok) throw 0; form.reset(); msg.textContent='상담 신청을 보냈습니다. 곧 전화드리겠습니다.'; })
+      .catch(()=>{ msg.textContent='신청이 전송되지 않았습니다. '+CONFIG.phone+' 으로 전화 주십시오.'; })
+      .finally(()=>{ btn.disabled=false; btn.textContent='상담 신청 보내기'; });
+  });
+})();
+</script>
+</body>
+</html>
